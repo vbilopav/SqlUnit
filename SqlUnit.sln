@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgTest.Net", "PostgTest.Net\PostgTest.Net.csproj", "{C616BDD6-60CA-4FD0-AA49-92075AA90048}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{33818225-81DB-4D51-8F08-857B86D2EEB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{EAE8A0C0-EE61-4D71-9FF0-CED08058A6F6}"
+	ProjectSection(SolutionItems) = preProject
+		Tests\Scripts\create_schema.sql = Tests\Scripts\create_schema.sql
+		Tests\Scripts\insert_test_data.sql = Tests\Scripts\insert_test_data.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MigrationFiles", "MigrationFiles", "{A2596D3D-1DAF-4AA0-ADF3-20761CB382D8}"
+	ProjectSection(SolutionItems) = preProject
+		Tests\Scripts\MigrationFiles\1_companies_up.sql = Tests\Scripts\MigrationFiles\1_companies_up.sql
+		Tests\Scripts\MigrationFiles\2_employees_up.sql = Tests\Scripts\MigrationFiles\2_employees_up.sql
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgTest.Net.ClassFixturesTests", "Tests\PostgTest.Net.ClassFixturesTests\PostgTest.Net.ClassFixturesTests.csproj", "{CAAF1A46-F228-4C95-A9A8-A05423992E4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgTest.Net.DbMigrationCodeClassTests", "Tests\PostgTest.Net.DbMigrationCodeClassTests\PostgTest.Net.DbMigrationCodeClassTests.csproj", "{D265F6FC-6B9C-41CA-A793-1C5D0E0844EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgTest.Net.DbMigrationCodeConfigTests", "Tests\PostgTest.Net.DbMigrationCodeConfigTests\PostgTest.Net.DbMigrationCodeConfigTests.csproj", "{63CD6D5F-8BAD-414C-A07F-4BFABE679E30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgTest.Net.DbMigrationJsonConfigTests", "Tests\PostgTest.Net.DbMigrationJsonConfigTests\PostgTest.Net.DbMigrationJsonConfigTests.csproj", "{0260E366-06A7-4F96-8FFB-3F18E7C5CCF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgTest.Net.MixedTests", "Tests\PostgTest.Net.MixedTests\PostgTest.Net.MixedTests.csproj", "{2D8B2A77-A6CE-448D-8410-26E817EA6A03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgTest.Net.TransactionIsolationTests", "Tests\PostgTest.Net.TransactionIsolationTests\PostgTest.Net.TransactionIsolationTests.csproj", "{7C3FD13A-2868-4BC3-B409-ED22DACB52ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C616BDD6-60CA-4FD0-AA49-92075AA90048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C616BDD6-60CA-4FD0-AA49-92075AA90048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C616BDD6-60CA-4FD0-AA49-92075AA90048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C616BDD6-60CA-4FD0-AA49-92075AA90048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAAF1A46-F228-4C95-A9A8-A05423992E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAAF1A46-F228-4C95-A9A8-A05423992E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAAF1A46-F228-4C95-A9A8-A05423992E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAAF1A46-F228-4C95-A9A8-A05423992E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D265F6FC-6B9C-41CA-A793-1C5D0E0844EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D265F6FC-6B9C-41CA-A793-1C5D0E0844EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D265F6FC-6B9C-41CA-A793-1C5D0E0844EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D265F6FC-6B9C-41CA-A793-1C5D0E0844EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63CD6D5F-8BAD-414C-A07F-4BFABE679E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CD6D5F-8BAD-414C-A07F-4BFABE679E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CD6D5F-8BAD-414C-A07F-4BFABE679E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CD6D5F-8BAD-414C-A07F-4BFABE679E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0260E366-06A7-4F96-8FFB-3F18E7C5CCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0260E366-06A7-4F96-8FFB-3F18E7C5CCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0260E366-06A7-4F96-8FFB-3F18E7C5CCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0260E366-06A7-4F96-8FFB-3F18E7C5CCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8B2A77-A6CE-448D-8410-26E817EA6A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8B2A77-A6CE-448D-8410-26E817EA6A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8B2A77-A6CE-448D-8410-26E817EA6A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8B2A77-A6CE-448D-8410-26E817EA6A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3FD13A-2868-4BC3-B409-ED22DACB52ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3FD13A-2868-4BC3-B409-ED22DACB52ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3FD13A-2868-4BC3-B409-ED22DACB52ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3FD13A-2868-4BC3-B409-ED22DACB52ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAE8A0C0-EE61-4D71-9FF0-CED08058A6F6} = {33818225-81DB-4D51-8F08-857B86D2EEB8}
+		{A2596D3D-1DAF-4AA0-ADF3-20761CB382D8} = {EAE8A0C0-EE61-4D71-9FF0-CED08058A6F6}
+		{CAAF1A46-F228-4C95-A9A8-A05423992E4E} = {33818225-81DB-4D51-8F08-857B86D2EEB8}
+		{D265F6FC-6B9C-41CA-A793-1C5D0E0844EE} = {33818225-81DB-4D51-8F08-857B86D2EEB8}
+		{63CD6D5F-8BAD-414C-A07F-4BFABE679E30} = {33818225-81DB-4D51-8F08-857B86D2EEB8}
+		{0260E366-06A7-4F96-8FFB-3F18E7C5CCF8} = {33818225-81DB-4D51-8F08-857B86D2EEB8}
+		{2D8B2A77-A6CE-448D-8410-26E817EA6A03} = {33818225-81DB-4D51-8F08-857B86D2EEB8}
+		{7C3FD13A-2868-4BC3-B409-ED22DACB52ED} = {33818225-81DB-4D51-8F08-857B86D2EEB8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2C8ADBB-8D01-4997-8F46-517B4E65D089}
+	EndGlobalSection
+EndGlobal
